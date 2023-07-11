@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float maths,physics,chemistry, total;
+    clrscr();
+    printf("enter marks of maths");
+    scanf("%f",&maths);
+    printf("\n enter marks of physics");
+    scanf("%f",&physics);
+    printf("\n enter marks of chemistry");
+    scanf("%f",&chemistry);
+    total= maths+chemistry+physics;
+    printf("\n your percentage is %f",(total*100)/300);
+
+     getch();
+     }

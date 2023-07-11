@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   float i,n,t=0.5;
+   clrscr();
+   printf("enter value of n");
+   scanf("%f",&n);
+   printf("\n");
+   for(i=1;i<=n;i++)
+   {
+
+      printf("%f ",t);
+      t += 1;
+
+
+      }
+      getch();
+      }

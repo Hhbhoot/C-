@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   // print 1 4 3 16 5...
+   int i,n,t1=1,t2=2,t;
+   t=t1+t2;
+   clrscr();
+   printf("enter value of n");
+   scanf("%d",&n);
+   printf("\n");
+   for(i=1;I<=n;i++)
+   {
+       t=t1+t2;
+     if(t%2!=0){
+
+     printf("%d", t);
+     t1=t2;t2=t;t=t1+t2;
+     }
+     getch();
+     }
+
+
+

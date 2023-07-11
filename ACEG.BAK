@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    clrscr();
+    for(i=0;i<=25;i=i+2)
+    {
+	if(i%4==0){
+		  printf("%c",a+65);
+		  }
+		  else{
+		     printf("%c",a+97) ;
+		     }     }
+		     getch();
+		     }
